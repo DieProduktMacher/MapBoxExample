@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5440352, 48.1204969]
+      },
+      "properties": {
+        "title": "Munich",
+        "description": "description",
+        "marker-size": "large",
+        "marker-color": "#0099cc",
+        "url": "http://www.dieproduktmacher.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.125483, 47.8654167]
+      },
+      "properties": {
+        "title": "Bad Aibling",
+        "description": "description",
+        "marker-size": "large",
+        "marker-color": "#0099cc",
+        "url": "http://www.dieproduktmacher.com"
+      }
+    }
+    ]
+  }
