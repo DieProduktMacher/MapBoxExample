@@ -20,19 +20,21 @@ $(document).ready(function () {
 
 
     function prepareMapFunctionalities() {
-        // Marker Hover
-        markerLayer.on('mouseover', function (e) {
-            e.layer.openPopup();
-        });
-        markerLayer.on('mouseout', function (e) {
-            e.layer.closePopup();
-        });
 
-        // Custom Popup Window
+        /********* Marker Hover ********/
+
+        // markerLayer.on('mouseover', function (e) {
+        //     e.layer.openPopup();
+        // });
+        // markerLayer.on('mouseout', function (e) {
+        //     e.layer.closePopup();
+        // });
+
+        /********* Custom Popup Window ********/
         // https://www.mapbox.com/mapbox.js/example/v1.0.0/custom-popup/
 
         // Centering Markers on Click
-        map.markerLayer.on('click', function (e) {
+        markerLayer.on('click', function (e) {
             map.panTo(e.layer.getLatLng());
         });
 
@@ -53,7 +55,6 @@ $(document).ready(function () {
 
 
         // find and store a variable reference to the list of filters
-        var filters = document.getElementById('filters');
         var $filters = $('#filters');
 
         // Wait until the marker layer is loaded in order to build a list of possible
