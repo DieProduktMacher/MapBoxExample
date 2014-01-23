@@ -12,7 +12,8 @@
         "description": "description",
         "marker-size": "large",
         "marker-color": "#0099cc",
-        "url": "http://www.dieproduktmacher.com"
+        "url": "http://www.dieproduktmacher.com",
+        "category": "city"
       }
     },
     {
@@ -26,7 +27,23 @@
         "description": "description",
         "marker-size": "large",
         "marker-color": "#0099cc",
-        "url": "http://www.dieproduktmacher.com"
+        "url": "http://www.dieproduktmacher.com",
+        "category": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5466532, 48.1497067]
+      },
+      "properties": {
+        "title": "Hans im Glück",
+        "description": "description",
+        "marker-size": "large",
+        "marker-color": "#9999CC",
+        "url": "http://www.dieproduktmacher.com",
+        "category": "restaurant"
       }
     }
     ]
